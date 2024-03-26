@@ -8,7 +8,9 @@ const config = {
 		// See https://kit.svelte.dev/docs/adapters for more information about adapters.
 		appDir: 'app',
 		adapter: adapter({
-			fallback: 'index.html'
+			fallback: 'index.html',
+			pages: 'docs',
+			assets: 'docs'
 		}),
 		paths: {
 			base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
