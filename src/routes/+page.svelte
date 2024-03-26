@@ -1,6 +1,6 @@
 <script>
 	let AUC_target = 500;
-	let CrCl = 80;
+	let CrCl = 90;
 	let Weight = 70;
 	let VD_factor = "0.65";
 	let calc_type = "empiric";
