@@ -1,0 +1,3 @@
+import{s as l,c as i,u,g as f,a as _}from"../chunks/scheduler.WS4t4ko8.js";import{S as c,i as p,t as m,c as d,a as $,b as g,d as b,e as h}from"../chunks/index.Dp8We7Zi.js";function y(a){let s,n;const o=a[1].default,e=i(o,a,a[0],null);return{c(){s=m(`export const prerender = true;
+ `),e&&e.c()},l(t){s=d(t,`export const prerender = true;
+ `),e&&e.l(t)},m(t,r){$(t,s,r),e&&e.m(t,r),n=!0},p(t,[r]){e&&e.p&&(!n||r&1)&&u(e,o,t,t[0],n?_(o,t[0],r,null):f(t[0]),null)},i(t){n||(g(e,t),n=!0)},o(t){b(e,t),n=!1},d(t){t&&h(s),e&&e.d(t)}}}function S(a,s,n){let{$$slots:o={},$$scope:e}=s;return a.$$set=t=>{"$$scope"in t&&n(0,e=t.$$scope)},[e,o]}class x extends c{constructor(s){super(),p(this,s,S,y,l,{})}}export{x as component};
